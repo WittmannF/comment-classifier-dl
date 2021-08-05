@@ -5,9 +5,9 @@ from utils.io_utils import load_config
 from utils.model_utils import load_model, load_tokenizer, predict_comment
 
 ##### Colab Run API/FLASK #####
-import nest_asyncio
+"""import nest_asyncio
 from pyngrok import ngrok
-import uvicorn
+import uvicorn"""
 
 app = Flask(__name__)
 
@@ -26,9 +26,9 @@ def predict():
   return render_template('index.html',prediction_text=api_result)
 
 if __name__ == "__main__":
-  ngrok_tunnel = ngrok.connect(5000)
-  print('Public URL:', ngrok_tunnel.public_url)
-  nest_asyncio.apply()
+  #ngrok_tunnel = ngrok.connect(5000)
+  #print('Public URL:', ngrok_tunnel.public_url)
+  #nest_asyncio.apply()
   #uvicorn.run(app, port=8000)
   app.run(debug=True)
   
