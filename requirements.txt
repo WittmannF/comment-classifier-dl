@@ -7,7 +7,6 @@ Werkzeug
 numpy
 scipy
 scikit-learn
-tensorflow
 keras
 fastapi
 pyaml
