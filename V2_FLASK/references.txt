@@ -1,0 +1,8 @@
+# Embed image in html from gdrive
+- https://stackoverflow.com/questions/15557392/how-do-i-display-images-from-google-drive-on-a-website
+
+# Call styles.css in html
+- https://pythonhow.com/add-css-to-flask-website/
+
+#Update CSS on page reload
+https://dev.to/sushantkd2019/flask-css-and-cache-walked-into-a-bar-2hbn

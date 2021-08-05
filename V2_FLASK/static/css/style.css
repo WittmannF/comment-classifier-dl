@@ -1,0 +1,79 @@
+.likearea{
+width: 35%;
+position:absolute; left: 28%; top: 95%;
+}
+.vid{
+width: 380px;
+position:absolute; right: 5.5%; top: 100%; 
+}
+.line{
+width: 60%;
+position:relative; 
+right: 15%; 
+margin-bottom: 1px;
+border-color: solid rgb(235, 235, 235);
+}
+.profile-icon{
+width: 65px;
+height: 65px;
+position: relative; left: 5%; top:5px;
+border-radius: 50%;
+}
+.qrcode{
+width: 235px;
+position: relative; left: 36%; top: -250px;
+visibility: hidden;
+}
+.conecte-bt{
+background-color: #ee0f0f;
+text-align: center; font-size: 18px; font-family: Calibri, sans-serif; 
+font-weight: 1000; color: white; 
+padding: 8px 22px; border: 2px; border-radius: 2px;
+position: relative; left: 55%; top: -110px;
+cursor:pointer;
+}
+.videostats{
+font-size: 13px;
+font-family: sans-serif;
+position: relative; left: 67px; top:-20px;
+color: gray;
+}
+.channel-name{
+font-size:15px;
+font-family: Calibri, sans-serif;
+font-weight: bold;
+position:relative; left: 11%; top:-55px;
+color: black;
+}
+.body{
+font-size:16px;
+font-family: Calibri, sans-serif;
+position:absolute;
+left: 11%;
+color: black;
+}
+.show-more{
+font-size:16px;
+font-weight: bold;
+font-family: Calibri, sans-serif;
+position:relative;
+left: 11%;
+color: gray;
+}
+input[type=text]{
+width: 55%;
+font-size: 16px;
+border: none;
+box-sizing: border-box;
+margin: 8px 0;
+border-bottom: 1.5px solid rgb(163, 163, 163); 
+position: relative; left: 10%; top: 85px;
+}
+input[type=submit] {
+height: 35px;
+padding:5px 22px; border:2px ; border-radius: 2px; 
+background-color: #195bf3;
+font-weight: 750; color: white; 
+cursor:pointer;
+position: relative; left: 1%; top: 125px;
+}
